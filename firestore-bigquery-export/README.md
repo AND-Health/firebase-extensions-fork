@@ -1,3 +1,17 @@
+## Publishing This Package to GitHub Registry
+
+```bash
+npm login --scope=@and-health --auth-type=legacy --registry=https://npm.pkg.github.com
+```
+
+Username: [your github username]
+Password: [your github personal access token]
+
+```dotfile
+// .npmrc file contents
+@and-health:registry=https://npm.pkg.github.com
+```
+
 # Stream Firestore to BigQuery
 
 **Author**: Firebase (**[https://firebase.google.com](https://firebase.google.com)**)
